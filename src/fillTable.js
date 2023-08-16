@@ -36,6 +36,7 @@ if (typeof window !== 'undefined') {
         `
         let a = document.createElement('a')
         a.href = link
+        a.target = "_blank"
         a.innerHTML = svg
 
         cell.append(a)
