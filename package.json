@@ -3,24 +3,32 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "compileTemplates": "node scripts/command.js",
+    "compileTemplates": "node commands/command.js",
     "dev": "cross-env TEMPLATE=${TEMPLATE} nodemon --exec \"pnpm run compileTemplates\"",
-    "lint": "eslint"
+    "lint": "eslint",
+    "build": "rollup -c"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bootstrap": "^5.3.1",
     "handlebars": "^4.7.8",
     "mjml": "^4.14.1",
     "mjml-core": "^4.14.1"
   },
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.4",
+    "@rollup/plugin-node-resolve": "^15.1.0",
     "cross-env": "^7.0.3",
     "dotenv": "^16.3.1",
     "eslint": "^8.47.0",
-    "nodemon": "^3.0.1"
+    "nodemon": "^3.0.1",
+    "rollup": "^3.28.0",
+    "rollup-plugin-scss": "^4.0.0",
+    "sass": "^1.65.1"
   },
   "nodemonConfig": {
     "ext": "mjml,json"
