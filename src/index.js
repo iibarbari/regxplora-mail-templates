@@ -1,4 +1,5 @@
 import './style.scss';
+import './fillTable.js';
 
 function updateTheme(mediaMatch) {
     if (mediaMatch.matches) {

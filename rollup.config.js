@@ -8,7 +8,7 @@ export default {
     },
     output: {
         format: 'es',
-        dir: 'dist',
+        dir: 'public',
     },
     plugins: [
         commonjs(),
