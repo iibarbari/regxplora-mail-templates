@@ -1,0 +1,29 @@
+<mj-section mj-class="footer" full-width="full-width">
+    <mj-column>
+        <mj-text mj-class="footer-text">Copyright © 2023 REGXELERATOR</mj-text>
+
+        <mj-text mj-class="footer-text" font-weight="700">Disclaimer</mj-text>
+
+        <mj-text mj-class="footer-text">
+            Regxelerator assumes no responsibility or liability for any errors or
+            omissions caused by third-party AI models in the creation of the news summaries.
+        </mj-text>
+
+        <mj-text mj-class="footer-text">
+            The information is provided on an as is basis with no guarantees of
+            completeness, accuracy, usefulness or timeliness.
+        </mj-text>
+
+
+        <mj-text mj-class="footer-link">
+            <a
+                    href="https://www.regxelerator.com"
+                    target="_blank"
+                    rel="noreferrer"
+                    style="text-decoration: none; color: white"
+            >
+                www.regxelerator.com
+            </a>
+        </mj-text>
+    </mj-column>
+</mj-section>

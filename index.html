@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Regxplora Templates</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            font-family: 'Roboto', system-ui, sans-serif;
+        }
+
+        table {
+            margin: 2rem;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid;
+            padding: 0.5rem;
+        }
+    </style>
+
+</head>
+<body>
+
+<table id="table">
+    <thead>
+    <tr>
+        <th>Template Name</th>
+        <th>HTML</th>
+<!--        <th>HTML with mocked data</th>-->
+    </tr>
+    </thead>
+    <tbody id="list"></tbody>
+</table>
+</body>
+<script src="./index.js"></script>
+</html>
