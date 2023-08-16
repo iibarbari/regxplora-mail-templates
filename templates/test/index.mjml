@@ -73,6 +73,7 @@
 
                 <mj-text mj-class="body-text">
                     Regards,
+                    <mj-raw><br/></mj-raw>
                     Regxplora
                 </mj-text>
             </mj-column>
