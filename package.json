@@ -3,12 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "compileTemplates": "node commands/command.js",
     "dev": "cross-env TEMPLATE=${TEMPLATE} nodemon --exec \"pnpm run compileTemplates\"",
     "lint": "eslint",
-    "build:js": "rollup -c"
+    "build:js": "rollup -c --bundleConfigAsCjs"
   },
   "keywords": [],
   "author": "",

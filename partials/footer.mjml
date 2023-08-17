@@ -1,4 +1,4 @@
-<mj-section mj-class="footer" full-width="full-width">
+<mj-section mj-class="footer">
     <mj-column>
         <mj-text mj-class="footer-text">Copyright © 2023 REGXELERATOR</mj-text>
 

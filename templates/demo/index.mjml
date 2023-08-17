@@ -1,0 +1,117 @@
+<mjml>
+    <mj-head>
+        <mj-title>
+            Bank of Japan Releases Preliminary Money Stock Figures for July 2023, Providing Comprehensive
+            Analysis on a Wide Range of Component
+        </mj-title>
+        <mj-attributes>
+            <mj-font name="Roboto"
+                     href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap"/>
+            <mj-all font-family="Roboto, Arial, system-ui, sans-serif"/>
+            <mj-text padding="0" padding-bottom="10px" font-size="16px"/>
+            <mj-body width="720px"/>
+
+
+            <!-- Header styles -->
+            <mj-class
+                    name="header"
+                    background-color="#eb652b"
+                    padding-right="20px"
+                    padding-left="20px"
+                    padding-top="90px"
+                    padding-bottom="48px"
+            />
+            <mj-class name="header-title" color="#ffffff" font-weight="900" font-size="24px"/>
+            <mj-class name="header-text" color="#ffffff" font-size="18px"/>
+            <!-- Header styles -->
+
+            <!-- Body styles -->
+            <mj-class name="body" padding-right="20px" padding-left="20px" padding-top="24px" padding-bottom="48px"/>
+            <mj-class name="body-text" line-height="1.8"/>
+            <mj-class name="body-title" font-size="18px" padding-bottom="20px"/>
+            <mj-class name="location" font-style="italic" padding-top="0" padding-bottom="0" line-height="1.2"/>
+            <mj-class name="date" font-style="italic" color="#888" padding-top="0" line-height="1.2"
+                      padding-bottom="20px"/>
+            <!-- Body styles -->
+
+            <!-- Footer styles -->
+            <mj-class
+                    name="footer"
+                    background-color="#192841"
+                    text-align="center"
+                    padding-right="20px"
+                    padding-left="20px"
+            />
+            <mj-class name="footer-text" color="#ffffff" align="center" padding-bottom="18px"/>
+            <mj-class name="footer-link" color="#ffffff" align="center" text-decoreation="none"/>
+            <!-- Footer styles -->
+        </mj-attributes>
+
+
+        <mj-style>
+            .responsive-title > div {
+                font-size: 24px;
+                transition: font-size 0.3s ease-in-out;
+            }
+
+            @media screen and (min-width: 576px) {
+                .responsive-title > div {
+                    font-size: 36px !important;
+                }
+            }
+
+            @media screen and (min-width: 768px) {
+                .responsive-title > div {
+                    font-size: 64px !important;
+                }
+            }
+        </mj-style>
+    </mj-head>
+
+    <mj-body>
+        <mj-include path="../../partials/header.mjml"/>
+
+        <mj-section mj-class="body">
+            <mj-column>
+                <mj-text mj-class="body-title">
+                    <a
+                            href="https://www.boj.or.jp/en/statistics/money/ms/ms2307.pdf"
+                            target="_blank"
+                            rel="noreferrer"
+                            style="text-decoration: none; color: black;"
+                    >
+                        Bank of Japan Releases Preliminary Money Stock Figures for July 2023, Providing Comprehensive
+                        Analysis on a Wide Range of Component
+                    </a>
+                </mj-text>
+
+                <mj-text mj-class="location">
+                    Asia - Japan
+                </mj-text>
+                <mj-text mj-class="location">
+                    Bank of Japan
+                </mj-text>
+                <mj-text mj-class="date">
+                    Wednesday, August 09, 2023
+                </mj-text>
+
+                <mj-text mj-class="body-text">
+                    The Research and Statistics Department of the Bank of Japan released preliminary figures for the
+                    money stock in July 2023. The M1, M2 and M3 figures along with Currency in circulation, Deposit
+                    Money, Quasi-money and Certificates of deposit (CDs) were displayed and showed varying rates of
+                    changes from the previous year. Also, the report shows figures for broadly-defined liquidity (L)
+                    which includes M3 and other components. The statistical data also covered the components of L such
+                    as Pecuniary trusts, Investment trusts, Bank debentures, Straight bonds, Commercial paper issued by
+                    financial institutions, Government securities and Foreign bonds, each with their yearly percentage
+                    changes. The report includes average amounts outstanding for each category, presenting them in
+                    trillions of yen. The statistics were noted to include revised figures and seasonally adjusted
+                    percent changes. In further detail, the report excludes pension trusts and investment trusts,
+                    subordinated bonds but includes dematerialized commercial paper, treasury discount bills and FILP
+                    bonds.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-include path="../../partials/footer.mjml"/>
+    </mj-body>
+</mjml>
