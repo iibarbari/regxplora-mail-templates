@@ -20,12 +20,13 @@
                     padding-top="90px"
                     padding-bottom="48px"
             />
-            <mj-class name="header-title" color="#ffffff" font-weight="900" font-size="24px"/>
-            <mj-class name="header-text" color="#ffffff" font-size="18px"/>
+            <mj-class name="header-title" color="#ffffff" font-weight="900" font-size="36px"/>
+            <mj-class name="header-text" color="#ffffff" font-size="20px"/>
             <!-- Header styles -->
 
             <!-- Body styles -->
-            <mj-class name="body" padding-right="20px" padding-left="20px" padding-top="24px" padding-bottom="48px"/>
+            <mj-class name="body" padding-right="20px" padding-left="20px" background-color="white"/>
+            <mj-class name="header-title" color="#ffffff" font-weight="900" font-size="36px"/>
             <mj-class name="body-text" line-height="1.8"/>
             <mj-class name="body-title" font-size="18px" padding-bottom="20px"/>
             <mj-class name="location" font-style="italic" padding-top="0" padding-bottom="0" line-height="1.2"/>
@@ -49,13 +50,13 @@
 
         <mj-style>
             .responsive-title > div {
-                font-size: 24px;
+                font-size: 36px;
                 transition: font-size 0.3s ease-in-out;
             }
 
-            @media screen and (min-width: 576px) {
+            @media screen and (min-width: 356px) {
                 .responsive-title > div {
-                    font-size: 36px !important;
+                    font-size: 48px !important;
                 }
             }
 
@@ -67,7 +68,7 @@
         </mj-style>
     </mj-head>
 
-    <mj-body>
+    <mj-body background-color="#f9f9f9">
         <mj-include path="../../partials/header.mjml"/>
 
         <mj-section mj-class="body">
