@@ -1,0 +1,38 @@
+<mj-raw>
+    <style type="text/css">
+        @media screen and (min-width: 0px) {
+            .responsive-header > * {
+                font-size: 24px !important;
+                transition: font-size 0.3s ease-in-out;
+            }
+
+            .responsive-subtitle > * {
+                font-size: 18px !important;
+                transition: font-size 0.3s ease-in-out;
+            }
+        }
+
+        @media screen and (min-width: 576px) {
+            .header-title > * {
+                font-size: 36px !important;
+            }
+        }
+
+        @media screen and (min-width: 768px) {
+            .responsive-header > * {
+                font-size: 64px !important;
+            }
+
+            .responsive-subtitle > * {
+                font-size: 24px !important;
+            }
+        }
+    </style>
+</mj-raw>
+
+<mj-section mj-class="header" full-width="full-width">
+    <mj-column>
+        <mj-text mj-class="header-title" css-class="responsive-header">REGXPLORA</mj-text>
+        <mj-text mj-class="header-subtitle" css-class="responsive-subtitle">Financial regulatory intelligence powered by AI & RPA</mj-text>
+    </mj-column>
+</mj-section>
