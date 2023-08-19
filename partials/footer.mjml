@@ -1,14 +1,5 @@
 <mj-raw>
     <style type="text/css">
-        .footer {
-            background-color: #192841 !important;
-            text-align: center !important;
-        }
-
-        .footer > table > tbody > tr > td {
-            padding: 20px !important;
-        }
-
         .footer-text {
             padding-bottom: 18px !important;
         }
@@ -30,7 +21,7 @@
     </style>
 </mj-raw>
 
-<mj-section css-class="footer">
+<mj-section mj-class="footer">
     <mj-column width="480px">
         <mj-text css-class="footer-text">Copyright © 2023 REGXELERATOR</mj-text>
 

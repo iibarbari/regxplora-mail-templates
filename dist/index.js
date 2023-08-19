@@ -1,8 +1,8 @@
 if (typeof window !== 'undefined') {
     /* TODO: Update here */
     const templates = [
-        "powerpoint_demo",
-        "demo"
+        "demo",
+        "multiple_articles",
     ];
 
     function createRow(template) {

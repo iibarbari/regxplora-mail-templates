@@ -1,0 +1,126 @@
+<mjml>
+    <mj-include path="../../partials/head.mjml"/>
+
+    <mj-body>
+        <mj-include path="../../partials/header.mjml"/>
+
+        <mj-section mj-class="body">
+            <mj-column css-class="body-column">
+                <!-- Article 1 -->
+                <mj-text css-class="body-title">
+                    <a
+                            href="https://www.boj.or.jp/en/statistics/money/ms/ms2307.pdf"
+                            target="_blank"
+                            rel="noreferrer"
+                            style="text-decoration: none; color: black;"
+                    >
+                        Bank of Japan Releases Preliminary Money Stock Figures for July 2023, Providing Comprehensive
+                        Analysis on a Wide Range of Component
+                    </a>
+                </mj-text>
+
+                <mj-text css-class="location">
+                    Asia - Japan
+                </mj-text>
+
+                <mj-text css-class="location">
+                    Bank of Japan
+                </mj-text>
+
+                <mj-text css-class="date">
+                    Wednesday, August 09, 2023
+                </mj-text>
+
+                <mj-text css-class="body-text">
+                    The Research and Statistics Department of the Bank of Japan released preliminary figures for the
+                    money stock in July 2023. The M1, M2 and M3 figures along with Currency in circulation, Deposit
+                    Money, Quasi-money and Certificates of deposit (CDs) were displayed and showed varying rates of
+                    changes from the previous year. Also, the report shows figures for broadly-defined liquidity (L)
+                    which includes M3 and other components.
+
+                    The statistical data also covered the components of L such as Pecuniary trusts, Investment trusts,
+                    Bank debentures, Straight bonds, Commercial paper issued by financial institutions, Government
+                    securities and Foreign bonds, each with their yearly percentage changes.
+
+                    The report includes average amounts outstanding for each category, presenting them in trillions of
+                    yen.
+
+                    The statistics were noted to include revised figures and seasonally adjusted percent changes. In
+                    further detail, the report excludes pension trusts and investment trusts, subordinated bonds but
+                    includes dematerialized commercial paper, treasury discount bills and FILP bonds.
+                </mj-text>
+
+                <!-- Divider -->
+                <mj-divider/>
+
+                <!-- Article 2 -->
+                <mj-text css-class="body-title">
+                    <a
+                            href="https://www.amcm.gov.mo/pt/news-notice/statement/detail/20230809_%E5%85%8C%E6%8F%9B%E8%99%8E%E5%B9%B4%E3%80%81%E5%85%94%E5%B9%B4%E7%94%9F%E8%82%96%E9%88%94%E5%8F%8A%E7%AC%AC24%E5%B1%86%E5%86%AC%E5%AD%A3%E5%A5%A7%E6%9E%97%E5%8C%B9%E5%85%8B%E9%81%8B%E5%8B%95%E6%9C%83%E9%88%94%E7%A5%A8%E7%9A%84%E5%AF%AC%E9%99%90%E6%9C%9F/978"
+                            target="_blank"
+                            rel="noreferrer"
+                            style="text-decoration: none; color: black;"
+                    >
+                        AMCM Extends Exchange Period for Zodiacal and Olympic Winter Games Notes; Online Subscribers
+                        Urged to Utilize Added Days
+                    </a>
+                </mj-text>
+
+                <mj-text css-class="location">
+                    Asia - Macao
+                </mj-text>
+
+                <mj-text css-class="location">
+                    Monetary Authority of Macao
+                </mj-text>
+
+                <mj-text css-class="date">
+                    Wednesday, August 09, 2023
+                </mj-text>
+
+                <mj-text css-class="body-text">
+                    The deadline for exchanging the zodiacal notes of the Years of the Tiger and the Rabbit, as well as
+                    the notes for celebrating the 24th Edition of the Olympic Winter Games, had been set as August 11,
+                    2023. However, to accommodate residents, the AMCM has authorized an additional exchange period
+                    running from August 14 to 18, 2023. Subscribers who registered online and are yet to exchange their
+                    notes are advised to do so within the extra period at the earlier chosen location. For any further
+                    information or clarification, the AMCM can be contacted through the hotline telephone numbers
+                    28565071/28565072, or their website during office hours.
+                </mj-text>
+
+                <!-- Divider -->
+                <mj-divider/>
+
+                <!-- Article 3 -->
+                <mj-text css-class="body-title">
+                    <a
+                            href="https://www.hkma.gov.hk/eng/news-and-media/press-releases/2023/08/20230809-4/"
+                            target="_blank"
+                            rel="noreferrer"
+                            style="text-decoration: none; color: black;"
+                    >
+                        HKMA Announces Updated Service Schedule for Coin Carts under Coin Collection Programme Effective late August 2023
+                    </a>
+                </mj-text>
+
+                <mj-text css-class="location">
+                    Asia - Hong Kong
+                </mj-text>
+
+                <mj-text css-class="location">
+                    Hong Kong Monetary Authority
+                </mj-text>
+
+                <mj-text css-class="date">
+                    Wednesday, August 09, 2023
+                </mj-text>
+
+                <mj-text css-class="body-text">
+                    The Hong Kong Monetary Authority (HKMA) has updated the service schedule for its two Coin Carts under the Coin Collection Programme, which will be effective from 28 August 2023 until 5 November 2023. Since being initiated in October 2014, the Coin Carts have carried out over 1.1 million transactions, collecting 873 million coins with a face value of HK$1,363 million. These coins are then re-circulated as per demand. The Coin Carts operate in locations with suitable power supply, and follow a rotating schedule across the 18 districts of Hong Kong, ensuring that their operation doesn't disrupt general traffic or pedestrian movements. Over the years, the HKMA has sought feedback from district councils and the public to improve their services, and has also consulted with the Transport Department and the Hong Kong Police Force. HKMA has stated that it will continue to periodically review the programme and regularly update the service schedule.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-include path="../../partials/footer.mjml"/>
+    </mj-body>
+</mjml>

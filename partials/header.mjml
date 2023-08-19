@@ -1,15 +1,5 @@
 <mj-raw>
     <style type="text/css">
-        .header {
-            background-color: #eb652b;
-            padding-top: 90px;
-            padding-bottom: 48px;
-        }
-
-        .header > table > tbody > tr > td {
-            padding: 20px !important;
-        }
-
         .header-title > * {
             color: #ffffff !important;
             font-weight: 900 !important;
@@ -20,20 +10,17 @@
             color: #ffffff !important;
             font-size: 24px !important;
         }
-    </style>
-</mj-raw>
 
-<!--[if !mso]><!-->
-<mj-raw>
-    <style>
-        .header-title > * {
-            font-size: 24px !important;
-            transition: font-size 0.3s ease-in-out;
-        }
+        @media screen and (min-width: 0px) {
+            .header-title > * {
+                font-size: 24px !important;
+                transition: font-size 0.3s ease-in-out;
+            }
 
-        .header-subtitle > * {
-            font-size: 18px;
-            transition: font-size 0.3s ease-in-out;
+            .header-subtitle > * {
+                font-size: 18px !important;
+                transition: font-size 0.3s ease-in-out;
+            }
         }
 
         @media screen and (min-width: 576px) {
@@ -53,9 +40,8 @@
         }
     </style>
 </mj-raw>
-<!--<![endif]-->
 
-<mj-section css-class="header">
+<mj-section mj-class="header">
     <mj-column>
         <mj-text css-class="header-title">REGXPLORA</mj-text>
         <mj-text css-class="header-subtitle">Financial regulatory intelligence powered by AI & RPA</mj-text>
