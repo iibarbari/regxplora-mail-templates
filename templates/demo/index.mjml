@@ -10,95 +10,60 @@
             <mj-all font-family="Roboto, Arial, system-ui, sans-serif"/>
             <mj-text padding="0" padding-bottom="10px" font-size="16px"/>
             <mj-body width="720px"/>
-
-
-            <!-- Header styles -->
-            <mj-class
-                    name="header"
-                    background-color="#eb652b"
-                    padding-right="20px"
-                    padding-left="20px"
-                    padding-top="90px"
-                    padding-bottom="48px"
-            />
-            <mj-class name="header-title" color="#ffffff" font-weight="900" font-size="24px"/>
-            <mj-class name="header-text" color="#ffffff" font-size="18px"/>
-            <!-- Header styles -->
-
-            <!-- Body styles -->
-            <mj-class name="body" padding-right="20px" padding-left="20px" background-color="white"/>
-            <mj-class name="body" padding-right="20px" padding-left="20px" padding-top="24px" padding-bottom="48px"/>
-            <mj-class name="body-text" line-height="1.8"/>
-            <mj-class name="body-title" font-size="18px" padding-bottom="20px"/>
-            <mj-class name="location" font-style="italic" padding-top="0" padding-bottom="0" line-height="1.2"/>
-            <mj-class name="date" font-style="italic" color="#888" padding-top="0" line-height="1.2"
-                      padding-bottom="20px"/>
-            <!-- Body styles -->
-
-            <!-- Footer styles -->
-            <mj-class
-                    name="footer"
-                    background-color="#192841"
-                    text-align="center"
-                    padding-right="20px"
-                    padding-left="20px"
-            />
-            <mj-class name="footer-text" color="#ffffff" align="center" padding-bottom="18px"/>
-            <mj-class name="footer-link" color="#ffffff" align="center" text-decoreation="none"/>
-            <!-- Footer styles -->
         </mj-attributes>
 
-
         <mj-raw>
-            <!--[if mso]>
-            <style type="text/css">
-                .responsive-title > div {
-                    font-size: 64px !important;
-                }
-
-                .responsive-subtitle > div {
-                    font-size: 24px !important;
-                }
-            </style>
-            <![endif]-->
-            <!--[if !mso]> <!-->
             <style>
-                .responsive-title > div {
-                    font-size: 24px !important;
-                    transition: font-size 0.3s ease-in-out;
+                .body {
+                    background-color: white !important;
                 }
 
-                .responsive-subtitle > div {
-                    font-size: 18px;
-                    transition: font-size 0.3s ease-in-out;
+                .body > table > tbody > tr > td {
+                    padding: 20px !important;
                 }
 
-                @media screen and (min-width: 576px) {
-                    .responsive-title > div {
-                        font-size: 36px !important;
-                    }
+                .body-title {
+                    padding-bottom: 20px !important;
                 }
 
-                @media screen and (min-width: 768px) {
-                    .responsive-title > div {
-                        font-size: 64px !important;
-                    }
+                .body-title > * {
+                    font-size: 18px !important;
+                }
 
-                    .responsive-subtitle > div {
-                        font-size: 24px !important;
-                    }
+                .location {
+                    padding-top: 0 !important;
+                    padding-bottom: 0 !important;
+                }
+
+                .location > * {
+                    font-style: italic !important;
+                    line-height: 1.2 !important;
+                }
+
+                .date {
+                    padding-top: 0 !important;
+                    padding-bottom: 20px !important;
+                }
+
+                .date > * {
+                    font-style: italic !important;
+                    color: #888 !important;
+                    line-height: 1.2 !important;
+                }
+
+                .body-text > * {
+                    line-height: 1.8 !important;
                 }
             </style>
-            <!--<![endif]-->
         </mj-raw>
     </mj-head>
 
     <mj-body background-color="#f9f9f9">
         <mj-include path="../../partials/header.mjml"/>
 
-        <mj-section mj-class="body">
+        <mj-section css-class="body">
             <mj-column>
-                <mj-text mj-class="body-title">
+                <mj-text css-class="body-title">
                     <a
                             href="https://www.boj.or.jp/en/statistics/money/ms/ms2307.pdf"
                             target="_blank"
@@ -110,17 +75,17 @@
                     </a>
                 </mj-text>
 
-                <mj-text mj-class="location">
+                <mj-text css-class="location">
                     Asia - Japan
                 </mj-text>
-                <mj-text mj-class="location">
+                <mj-text css-class="location">
                     Bank of Japan
                 </mj-text>
-                <mj-text mj-class="date">
+                <mj-text css-class="date">
                     Wednesday, August 09, 2023
                 </mj-text>
 
-                <mj-text mj-class="body-text">
+                <mj-text css-class="body-text">
                     The Research and Statistics Department of the Bank of Japan released preliminary figures for the
                     money stock in July 2023. The M1, M2 and M3 figures along with Currency in circulation, Deposit
                     Money, Quasi-money and Certificates of deposit (CDs) were displayed and showed varying rates of
