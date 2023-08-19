@@ -26,7 +26,7 @@
 
             <!-- Body styles -->
             <mj-class name="body" padding-right="20px" padding-left="20px" background-color="white"/>
-            <mj-class name="body-text" line-GIheight="1.8"/>
+            <mj-class name="body-text" line-height="1.8"/>
             <mj-class name="body-title" font-size="18px" padding-bottom="20px"/>
             <mj-class name="location" font-style="italic" padding-top="0" padding-bottom="0" line-height="1.2"/>
             <mj-class name="date" font-style="italic" color="#888" padding-top="0" line-height="1.2"
@@ -58,17 +58,7 @@
                 transition: font-size 0.3s ease-in-out;
             }
 
-            @media screen and (min-width: 576px) {
-                .responsive-title > div {
-                    font-size: 36px !important;
-                }
-
-                .responsive-subtitle > div {
-                    font-size: 20px !important;
-                }
-            }
-
-            @media screen and (min-width: 768px) {
+            @media screen and (min-width: 420px) {
                 .responsive-title > div {
                     font-size: 64px !important;
                 }
