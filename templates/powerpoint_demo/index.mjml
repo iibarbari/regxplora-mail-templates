@@ -26,8 +26,7 @@
 
             <!-- Body styles -->
             <mj-class name="body" padding-right="20px" padding-left="20px" background-color="white"/>
-            <mj-class name="header-title" color="#ffffff" font-weight="900" font-size="36px"/>
-            <mj-class name="body-text" line-height="1.8"/>
+            <mj-class name="body-text" line-GIheight="1.8"/>
             <mj-class name="body-title" font-size="18px" padding-bottom="20px"/>
             <mj-class name="location" font-style="italic" padding-top="0" padding-bottom="0" line-height="1.2"/>
             <mj-class name="date" font-style="italic" color="#888" padding-top="0" line-height="1.2"
