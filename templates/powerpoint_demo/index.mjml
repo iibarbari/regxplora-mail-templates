@@ -46,25 +46,9 @@
             <!-- Footer styles -->
         </mj-attributes>
 
-
-        <mj-style>
-            .responsive-title > div {
-                font-size: 24px !important;
-                transition: font-size 0.3s ease-in-out;
-            }
-
-            .responsive-subtitle > div {
-                font-size: 18px;
-                transition: font-size 0.3s ease-in-out;
-            }
-
-            @media screen and (min-width: 576px) {
-                .responsive-title > div {
-                    font-size: 36px !important;
-                }
-            }
-
-            @media screen and (min-width: 768px) {
+        <mj-raw>
+            <!--[if mso]>
+            <style type="text/css">
                 .responsive-title > div {
                     font-size: 64px !important;
                 }
@@ -72,8 +56,38 @@
                 .responsive-subtitle > div {
                     font-size: 24px !important;
                 }
-            }
-        </mj-style>
+            </style>
+            <![endif]-->
+            <!--[if !mso]> <!-->
+            <style>
+                .responsive-title > div {
+                    font-size: 24px !important;
+                    transition: font-size 0.3s ease-in-out;
+                }
+
+                .responsive-subtitle > div {
+                    font-size: 18px;
+                    transition: font-size 0.3s ease-in-out;
+                }
+
+                @media screen and (min-width: 576px) {
+                    .responsive-title > div {
+                        font-size: 36px !important;
+                    }
+                }
+
+                @media screen and (min-width: 768px) {
+                    .responsive-title > div {
+                        font-size: 64px !important;
+                    }
+
+                    .responsive-subtitle > div {
+                        font-size: 24px !important;
+                    }
+                }
+            </style>
+            <!--<![endif]-->
+        </mj-raw>
     </mj-head>
 
     <mj-body background-color="#f9f9f9">
