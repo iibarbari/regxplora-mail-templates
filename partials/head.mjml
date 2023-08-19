@@ -1,5 +1,5 @@
 <mj-head>
-    <mj-title>Demo</mj-title>
+    <mj-title>{{title}}</mj-title>
     <mj-attributes>
         <mj-font name="Roboto"
                  href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap"/>
@@ -9,46 +9,22 @@
         <mj-divider border-width="1px" border-style="solid" border-color="#333333" padding-right="0"
                     padding-left="0" padding-bottom="28px"/>
 
+        <!-- Body styles -->
         <mj-class name="body" background-color="white" padding-right="20px" padding-left="20px"/>
+        <mj-class name="location" padding-top="0" padding-bottom="0" font-style="italic" line-height="1.2"/>
+        <mj-class name="date" padding-top="0" padding-bottom="20px" font-style="italic" line-height="1.2"
+                  color="#888888"/>
+        <mj-class name="body-text" line-height="1.8"/>
+        <mj-class name="body-title" padding-bottom="20px" font-size="18px"/>
+
+        <!-- Header styles -->
         <mj-class name="header" background-color="#eb652b" padding-right="20px" padding-left="20px"
                   padding-top="90px" padding-bottom="48px"/>
+        <mj-class name="header-title" color="#ffffff" font-weight="900" font-size="64px"/>
+        <mj-class name="header-subtitle" color="#ffffff" font-size="24px"/>
+
+        <!-- Footer styles -->
         <mj-class name="footer" background-color="#192841" padding-right="20px" padding-left="20px"/>
+        <mj-class name="footer-text" color="#ffffff" align="center" padding-bottom="18px"/>
     </mj-attributes>
-
-    <mj-raw>
-        <style>
-            .body-title {
-                padding-bottom: 20px !important;
-            }
-
-            .body-title > * {
-                font-size: 18px !important;
-            }
-
-            .location {
-                padding-top: 0 !important;
-                padding-bottom: 0 !important;
-            }
-
-            .location > * {
-                font-style: italic !important;
-                line-height: 1.2 !important;
-            }
-
-            .date {
-                padding-top: 0 !important;
-                padding-bottom: 20px !important;
-            }
-
-            .date > * {
-                font-style: italic !important;
-                color: #888 !important;
-                line-height: 1.2 !important;
-            }
-
-            .body-text > * {
-                line-height: 1.8 !important;
-            }
-        </style>
-    </mj-raw>
 </mj-head>

@@ -33,7 +33,7 @@ class ConvertMjmlToHtml {
 
         const newContent = compile(refContent)(JSON.parse(variables))
 
-        await fs.promises.writeFile(path.join(__dirname, '..', 'templates', template, 'index.test.html'),
+        await fs.promises.writeFile(path.join(__dirname, '..', 'templates', template, 'index.html'),
             newContent,
             (err) => {
                 if (err) throw new Error(err)
@@ -42,7 +42,7 @@ class ConvertMjmlToHtml {
 
     async listDir() {
         try {
-            return await fs.promises.readdir(path.join(__dirname, '..', 'templates'));
+            return await fs.promises.readdir(path.join(__dirname, "..",'templates'));
         } catch (err) {
             console.error('Error occurred while reading directory!', err);
         }
@@ -57,13 +57,13 @@ class ConvertMjmlToHtml {
 
                 await Promise.all(templates.map(async (template) => {
                     await this.convertToHtml(template)
-                    // await this.replaceVariables(template)
+                    await this.replaceVariables(template)
 
                     console.log(`${template} compiled`)
                 }));
             } else {
                 await this.convertToHtml(process.env.TEMPLATE)
-                // await this.replaceVariables(process.env.TEMPLATE)
+                await this.replaceVariables(process.env.TEMPLATE)
 
                 console.log(`${process.env.TEMPLATE} compiled`)
             }

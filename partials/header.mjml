@@ -1,23 +1,12 @@
 <mj-raw>
     <style type="text/css">
-        .header-title > * {
-            color: #ffffff !important;
-            font-weight: 900 !important;
-            font-size: 64px !important;
-        }
-
-        .header-subtitle > * {
-            color: #ffffff !important;
-            font-size: 24px !important;
-        }
-
         @media screen and (min-width: 0px) {
-            .header-title > * {
+            .responsive-header > * {
                 font-size: 24px !important;
                 transition: font-size 0.3s ease-in-out;
             }
 
-            .header-subtitle > * {
+            .responsive-subtitle > * {
                 font-size: 18px !important;
                 transition: font-size 0.3s ease-in-out;
             }
@@ -30,11 +19,11 @@
         }
 
         @media screen and (min-width: 768px) {
-            .header-title > * {
+            .responsive-header > * {
                 font-size: 64px !important;
             }
 
-            .header-subtitle > * {
+            .responsive-subtitle > * {
                 font-size: 24px !important;
             }
         }
@@ -43,7 +32,7 @@
 
 <mj-section mj-class="header">
     <mj-column>
-        <mj-text css-class="header-title">REGXPLORA</mj-text>
-        <mj-text css-class="header-subtitle">Financial regulatory intelligence powered by AI & RPA</mj-text>
+        <mj-text mj-class="header-title" css-class="responsive-header">REGXPLORA</mj-text>
+        <mj-text mj-class="header-subtitle" css-class="responsive-subtitle">Financial regulatory intelligence powered by AI & RPA</mj-text>
     </mj-column>
 </mj-section>

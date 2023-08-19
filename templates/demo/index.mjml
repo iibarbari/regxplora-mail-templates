@@ -6,7 +6,7 @@
 
         <mj-section mj-class="body">
             <mj-column>
-                <mj-text css-class="body-title">
+                <mj-text mj-class="body-title">
                     <a
                             href="https://www.boj.or.jp/en/statistics/money/ms/ms2307.pdf"
                             target="_blank"
@@ -18,19 +18,19 @@
                     </a>
                 </mj-text>
 
-                <mj-text css-class="location">
+                <mj-text mj-class="location">
                     Asia - Japan
                 </mj-text>
 
-                <mj-text css-class="location">
+                <mj-text mj-class="location">
                     Bank of Japan
                 </mj-text>
 
-                <mj-text css-class="date">
+                <mj-text mj-class="date">
                     Wednesday, August 09, 2023
                 </mj-text>
 
-                <mj-text css-class="body-text">
+                <mj-text mj-class="body-text">
                     The Research and Statistics Department of the Bank of Japan released preliminary figures for the
                     money stock in July 2023. The M1, M2 and M3 figures along with Currency in circulation, Deposit
                     Money, Quasi-money and Certificates of deposit (CDs) were displayed and showed varying rates of
