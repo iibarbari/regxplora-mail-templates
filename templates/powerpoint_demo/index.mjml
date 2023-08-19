@@ -21,7 +21,7 @@
                     padding-bottom="48px"
             />
             <mj-class name="header-title" color="#ffffff" font-weight="900" font-size="36px"/>
-            <mj-class name="header-text" color="#ffffff" font-size="20px"/>
+            <mj-class name="header-text" color="#ffffff" font-size="24px"/>
             <!-- Header styles -->
 
             <!-- Body styles -->
