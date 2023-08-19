@@ -1,6 +1,6 @@
 <mj-section mj-class="header">
     <mj-column>
         <mj-text mj-class="header-title" css-class="responsive-title">REGXPLORA</mj-text>
-        <mj-text mj-class="header-text">Financial regulatory intelligence powered by AI & RPA</mj-text>
+        <mj-text mj-class="header-text" css-class="responsive-subtitle">Financial regulatory intelligence powered by AI & RPA</mj-text>
     </mj-column>
 </mj-section>
