@@ -1,5 +1,5 @@
 <mj-section mj-class="footer">
-    <mj-column>
+    <mj-column width="480px">
         <mj-text mj-class="footer-text">Copyright © 2023 REGXELERATOR</mj-text>
 
         <mj-text mj-class="footer-text" font-weight="700">Disclaimer</mj-text>
