@@ -1,0 +1,28 @@
+<mjml>
+    <mj-include path="../../partials/head.mjml"/>
+
+    <mj-body>
+        <mj-include path="../../partials/header.mjml"/>
+
+        <mj-section mj-class="body" padding-top="96px" padding-bottom="96px">
+            <mj-column>
+                <mj-text mj-class="body-text">
+                    Hello
+                </mj-text>
+                <mj-text mj-class="body-text">
+                    Please find your summarized report attached.
+                </mj-text>
+
+                <mj-text mj-class="body-text">
+                    Regards,
+                    <mj-raw>
+                        <br/>
+                    </mj-raw>
+                    Regxelerator
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-include path="../../partials/footer.mjml"/>
+    </mj-body>
+</mjml>

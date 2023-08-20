@@ -2,7 +2,7 @@ if (typeof window !== 'undefined') {
     /* TODO: Update here */
     const templates = [
         "demo",
-        "fullwidth",
+        "short",
         "multiple_articles",
     ]
 
